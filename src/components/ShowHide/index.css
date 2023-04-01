@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.heading {
+  color: #ffffff;
+  font-size: 60px;
+  font-family: 'Roboto';
+}
+.button {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fc63a7;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  border-width: 0px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.name {
+  font-size: 40px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+.each-card {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .each-card {
+    margin-right: 100px;
+  }
+}
